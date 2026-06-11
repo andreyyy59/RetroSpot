@@ -112,7 +112,7 @@ fun SearchScreen(
             Spacer(modifier = Modifier.height(8.dp))
 
             // Spotify download from URL or Spotify API search result
-            if (spotifyState.songInfo != null || (isSpotifyTrackUrl && spotifyState.isLoading)) {
+            if (spotifyState.songInfo != null || spotifyState.isLoading) {
                 SpotifyDownloadSection(
                     state = spotifyState,
                     onDownload = { data -> viewModel.downloadSong(data) },
