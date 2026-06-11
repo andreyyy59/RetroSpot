@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color retro_chrome
+color retro_cyan
+color retro_dark_surface
+color retro_deep_blue
+color retro_lcd_green
+color retro_metallic_blue
+color retro_neon_blue
+drawable ic_launcher_foreground
+font digital_font
+font ds_digi
+font ds_digib
+font ds_digii
+font ds_digit
+font ds_digital_font
+font vt323_regular
+mipmap ic_launcher
+mipmap ic_launcher_round
+string albums
+string app_name
+string artists
+string home
+string library
+string made_for_you
+string playlists
+string recently_played
+string recommended_today
+string search
+string songs
+style Theme.RetroSpot
+xml data_extraction_rules

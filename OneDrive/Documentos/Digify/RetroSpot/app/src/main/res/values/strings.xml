@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RetroSpot</string>
+    <string name="home">Inicio</string>
+    <string name="search">Buscar</string>
+    <string name="library">Biblioteca</string>
+    <string name="songs">Canciones</string>
+    <string name="albums">Álbumes</string>
+    <string name="artists">Artistas</string>
+    <string name="playlists">Playlists</string>
+    <string name="recommended_today">Recomendado para hoy</string>
+    <string name="recently_played">Reproducido recientemente</string>
+    <string name="made_for_you">Hecho para ti</string>
+</resources>

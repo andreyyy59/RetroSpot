@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="retro_deep_blue">#0D1B2A</color>
+    <color name="retro_metallic_blue">#1B3A5C</color>
+    <color name="retro_cyan">#00D4FF</color>
+    <color name="retro_chrome">#C0C8D0</color>
+    <color name="retro_lcd_green">#00FF41</color>
+    <color name="retro_neon_blue">#0088FF</color>
+    <color name="retro_dark_surface">#1A2332</color>
+</resources>

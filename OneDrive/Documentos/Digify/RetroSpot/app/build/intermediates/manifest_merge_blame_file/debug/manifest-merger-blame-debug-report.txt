@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.retrowave.player"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+11-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:5:5-75
+11-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:5:22-72
+12    <uses-permission
+12-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:6:5-7:38
+13        android:name="android.permission.READ_EXTERNAL_STORAGE"
+13-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:6:22-77
+14        android:maxSdkVersion="32" />
+14-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:7:9-35
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:8:5-67
+15-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:8:22-64
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:9:5-68
+16-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:9:22-65
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:10:5-77
+17-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:10:22-74
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+18-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:11:5-92
+18-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:11:22-89
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:12:5-77
+19-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:12:22-74
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:13:5-71
+20-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:13:22-68
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[androidx.media3:media3-common:1.2.1] C:\Users\andre\.gradle\caches\transforms-3\2465368d4ecb225b9169505f9a7c78d8\transformed\media3-common-1.2.1\AndroidManifest.xml:22:5-79
+21-->[androidx.media3:media3-common:1.2.1] C:\Users\andre\.gradle\caches\transforms-3\2465368d4ecb225b9169505f9a7c78d8\transformed\media3-common-1.2.1\AndroidManifest.xml:22:22-76
+22
+23    <permission
+23-->[androidx.core:core:1.12.0] C:\Users\andre\.gradle\caches\transforms-3\28ad8e67864089b395be0f3a0dce2dff\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+24        android:name="com.retrowave.player.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.12.0] C:\Users\andre\.gradle\caches\transforms-3\28ad8e67864089b395be0f3a0dce2dff\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.12.0] C:\Users\andre\.gradle\caches\transforms-3\28ad8e67864089b395be0f3a0dce2dff\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.retrowave.player.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.12.0] C:\Users\andre\.gradle\caches\transforms-3\28ad8e67864089b395be0f3a0dce2dff\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.12.0] C:\Users\andre\.gradle\caches\transforms-3\28ad8e67864089b395be0f3a0dce2dff\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:15:5-38:19
+30        android:name="com.retrowave.player.RetroSpotApp"
+30-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:16:9-37
+31        android:allowBackup="true"
+31-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:17:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.12.0] C:\Users\andre\.gradle\caches\transforms-3\28ad8e67864089b395be0f3a0dce2dff\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:18:9-43
+36        android:label="@string/app_name"
+36-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:19:9-41
+37        android:supportsRtl="true"
+37-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:20:9-35
+38        android:theme="@style/Theme.RetroSpot" >
+38-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:21:9-47
+39        <activity
+39-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:24:9-32:20
+40            android:name="com.retrowave.player.MainActivity"
+40-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:25:13-41
+41            android:exported="true"
+41-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:26:13-36
+42            android:theme="@style/Theme.RetroSpot" >
+42-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:27:13-51
+43            <intent-filter>
+43-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:28:13-31:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:29:17-69
+44-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:29:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:30:17-77
+46-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:30:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <service
+50-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:34:9-37:61
+51            android:name="com.retrowave.player.data.local.player.MusicService"
+51-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:35:13-59
+52            android:exported="false"
+52-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:36:13-37
+53            android:foregroundServiceType="mediaPlayback" />
+53-->C:\Users\andre\OneDrive\Documentos\Digify\RetroSpot\app\src\main\AndroidManifest.xml:37:13-58
+54
+55        <activity
+55-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\andre\.gradle\caches\transforms-3\099b472a669d81cc1845275354124b85\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+56            android:name="androidx.compose.ui.tooling.PreviewActivity"
+56-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\andre\.gradle\caches\transforms-3\099b472a669d81cc1845275354124b85\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+57            android:exported="true" />
+57-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\andre\.gradle\caches\transforms-3\099b472a669d81cc1845275354124b85\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+58        <activity
+58-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\andre\.gradle\caches\transforms-3\3b00a8b345d914aeac9461785e8e3d2a\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:23:9-25:39
+59            android:name="androidx.activity.ComponentActivity"
+59-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\andre\.gradle\caches\transforms-3\3b00a8b345d914aeac9461785e8e3d2a\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:24:13-63
+60            android:exported="true" />
+60-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\andre\.gradle\caches\transforms-3\3b00a8b345d914aeac9461785e8e3d2a\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:25:13-36
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\andre\.gradle\caches\transforms-3\db4c1f5270c95f061c06015542931d91\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\andre\.gradle\caches\transforms-3\db4c1f5270c95f061c06015542931d91\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+64            android:authorities="com.retrowave.player.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\andre\.gradle\caches\transforms-3\db4c1f5270c95f061c06015542931d91\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\andre\.gradle\caches\transforms-3\db4c1f5270c95f061c06015542931d91\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\andre\.gradle\caches\transforms-3\db4c1f5270c95f061c06015542931d91\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\andre\.gradle\caches\transforms-3\db4c1f5270c95f061c06015542931d91\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\andre\.gradle\caches\transforms-3\db4c1f5270c95f061c06015542931d91\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\andre\.gradle\caches\transforms-3\4f4287ebfda2f133ee8cd36cface7101\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\andre\.gradle\caches\transforms-3\4f4287ebfda2f133ee8cd36cface7101\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\andre\.gradle\caches\transforms-3\4f4287ebfda2f133ee8cd36cface7101\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+74                android:value="androidx.startup" />
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+75        </provider>
+76
+77        <service
+77-->[androidx.room:room-runtime:2.6.1] C:\Users\andre\.gradle\caches\transforms-3\21f37d12ee3dcae8031f0b0f1bb01e81\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+78            android:name="androidx.room.MultiInstanceInvalidationService"
+78-->[androidx.room:room-runtime:2.6.1] C:\Users\andre\.gradle\caches\transforms-3\21f37d12ee3dcae8031f0b0f1bb01e81\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+79            android:directBootAware="true"
+79-->[androidx.room:room-runtime:2.6.1] C:\Users\andre\.gradle\caches\transforms-3\21f37d12ee3dcae8031f0b0f1bb01e81\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+80            android:exported="false" />
+80-->[androidx.room:room-runtime:2.6.1] C:\Users\andre\.gradle\caches\transforms-3\21f37d12ee3dcae8031f0b0f1bb01e81\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+81
+82        <receiver
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+83            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+84            android:directBootAware="false"
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+85            android:enabled="true"
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+86            android:exported="true"
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+87            android:permission="android.permission.DUMP" >
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+89                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+92                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+95                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+98                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\andre\.gradle\caches\transforms-3\5fd6d9e3b727e17f1fa943ec37433352\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+99            </intent-filter>
+100        </receiver>
+101    </application>
+102
+103</manifest>
