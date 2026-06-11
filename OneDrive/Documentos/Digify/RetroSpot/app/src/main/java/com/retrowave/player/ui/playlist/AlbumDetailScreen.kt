@@ -129,12 +129,14 @@ private fun SongRow(song: Song, onClick: () -> Unit) {
             MarqueeText(
                 text = song.title,
                 color = RetroSilver,
-                style = MaterialTheme.typography.bodyLarge
+                style = MaterialTheme.typography.bodyLarge,
+                modifier = Modifier.fillMaxWidth()
             )
-            Text(
+            MarqueeText(
                 text = "${song.artist} • ${song.album}",
                 color = RetroDimGray,
-                style = MaterialTheme.typography.bodyMedium
+                style = MaterialTheme.typography.bodyMedium,
+                modifier = Modifier.fillMaxWidth()
             )
         }
     }

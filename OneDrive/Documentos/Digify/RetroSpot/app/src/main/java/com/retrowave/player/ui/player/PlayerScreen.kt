@@ -236,8 +236,7 @@ fun PlayerScreen(
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(horizontal = 16.dp),
-                horizontalAlignment = Alignment.CenterHorizontally
+                    .padding(horizontal = 16.dp)
             ) {
                 MarqueeText(
                     text = uiState.currentSong?.title?.uppercase() ?: "SIN REPRODUCCIÓN",
@@ -248,14 +247,12 @@ fun PlayerScreen(
 
                 Spacer(modifier = Modifier.height(2.dp))
 
-                Text(
+                MarqueeText(
                     text = (uiState.currentSong?.artist?.uppercase() ?: "") +
                             if (uiState.currentSong?.album != null) " • ${uiState.currentSong?.album?.uppercase()}" else "",
                     color = RetroDimGray.copy(alpha = 0.8f),
-                    style = MaterialTheme.typography.bodyMedium,
-                    maxLines = 1,
-                    overflow = TextOverflow.Ellipsis,
-                    letterSpacing = 1.sp
+                    style = MaterialTheme.typography.bodyMedium.copy(letterSpacing = 1.sp),
+                    modifier = Modifier.fillMaxWidth()
                 )
             }
 

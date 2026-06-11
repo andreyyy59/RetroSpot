@@ -426,21 +426,22 @@ private fun SpotifyDownloadSection(
                             MarqueeText(
                                 text = data.title,
                                 color = RetroSilver,
-                                style = MaterialTheme.typography.titleMedium
+                                style = MaterialTheme.typography.titleMedium,
+                                modifier = Modifier.fillMaxWidth()
                             )
                             Spacer(Modifier.height(4.dp))
-                            Text(
+                            MarqueeText(
                                 text = data.artist,
                                 color = RetroVfdGreen,
-                                style = MaterialTheme.typography.bodyLarge
+                                style = MaterialTheme.typography.bodyLarge,
+                                modifier = Modifier.fillMaxWidth()
                             )
                             Spacer(Modifier.height(2.dp))
-                            Text(
+                            MarqueeText(
                                 text = data.album,
                                 color = RetroDimGray,
                                 style = MaterialTheme.typography.bodyMedium,
-                                maxLines = 1,
-                                overflow = TextOverflow.Ellipsis
+                                modifier = Modifier.fillMaxWidth()
                             )
                         }
                     }

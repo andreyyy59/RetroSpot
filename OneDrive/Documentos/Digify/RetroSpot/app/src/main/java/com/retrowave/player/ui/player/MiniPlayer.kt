@@ -108,14 +108,14 @@ fun MiniPlayer(
                         MarqueeText(
                             text = song?.title?.uppercase() ?: "",
                             color = RetroSilver,
-                            style = MaterialTheme.typography.titleMedium
+                            style = MaterialTheme.typography.titleMedium,
+                            modifier = Modifier.fillMaxWidth()
                         )
-                        Text(
+                        MarqueeText(
                             text = song?.artist?.uppercase() ?: "",
                             color = RetroDimGray,
                             style = MaterialTheme.typography.bodyMedium,
-                            maxLines = 1,
-                            overflow = TextOverflow.Ellipsis
+                            modifier = Modifier.fillMaxWidth()
                         )
                     }
 
