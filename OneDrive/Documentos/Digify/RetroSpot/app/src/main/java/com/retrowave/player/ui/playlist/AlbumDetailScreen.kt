@@ -23,7 +23,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.retrowave.player.domain.model.Song
 import com.retrowave.player.ui.components.MarqueeText
-import com.retrowave.player.ui.components.PixelText
 import com.retrowave.player.ui.components.chromeBorder
 import com.retrowave.player.ui.components.songColor
 import com.retrowave.player.ui.theme.*
@@ -55,17 +54,19 @@ fun AlbumDetailScreen(
         Column(modifier = Modifier.fillMaxSize()) {
             TopAppBar(
                 title = {
-                    Column {
-                        PixelText(
-                            text = uiState.album?.title ?: "ALBUM",
+                    Column(modifier = Modifier.fillMaxWidth()) {
+                        MarqueeText(
+                            text = uiState.album?.title?.uppercase() ?: "ALBUM",
                             color = RetroVfdGreen,
-                            pixelSize = 5.dp
+                            style = MaterialTheme.typography.titleLarge,
+                            modifier = Modifier.fillMaxWidth()
                         )
                         uiState.album?.let { album ->
-                            Text(
+                            MarqueeText(
                                 text = "${album.artist} • ${album.songCount} canciones",
                                 color = RetroDimGray,
-                                style = MaterialTheme.typography.bodySmall
+                                style = MaterialTheme.typography.bodySmall,
+                                modifier = Modifier.fillMaxWidth()
                             )
                         }
                     }
